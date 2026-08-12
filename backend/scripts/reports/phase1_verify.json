@@ -1,0 +1,405 @@
+{
+  "courses": {
+    "24": "+2 Foundation (After SEE)",
+    "38": "NEB Grade 12 Science",
+    "72": "NEB grade improvement",
+    "91": "NEB Grade 11 Science",
+    "209": "NEB Grade 11 Management",
+    "210": "NEB Grade 12 Management"
+  },
+  "course_ids_match_expected": false,
+  "unexpected_course_ids": [],
+  "missing_course_ids": [
+    194,
+    195,
+    203
+  ],
+  "course_totals": {
+    "24": {
+      "name": "+2 Foundation (After SEE)",
+      "chapters": 37,
+      "distinct_questions": 1155
+    },
+    "38": {
+      "name": "NEB Grade 12 Science",
+      "chapters": 471,
+      "distinct_questions": 19395
+    },
+    "72": {
+      "name": "NEB grade improvement",
+      "chapters": 2,
+      "distinct_questions": 148
+    },
+    "91": {
+      "name": "NEB Grade 11 Science",
+      "chapters": 362,
+      "distinct_questions": 16255
+    },
+    "209": {
+      "name": "NEB Grade 11 Management",
+      "chapters": 117,
+      "distinct_questions": 2340
+    },
+    "210": {
+      "name": "NEB Grade 12 Management",
+      "chapters": 101,
+      "distinct_questions": 2020
+    }
+  },
+  "pre_eng_203_chapter_count": 0,
+  "pre_eng_203_total_distinct_questions": 0,
+  "pre_eng_203_orphan_question_ids": [],
+  "pre_eng_203_orphan_count": 0,
+  "attempts_referencing_203_chapters": 0,
+  "practice_sessions_course_194": 0,
+  "practice_sessions_course_195": 0,
+  "practice_sessions_course_203": 0,
+  "total_questions_system_wide": 40110,
+  "total_sections_system_wide": 1565,
+  "subjects": {
+    "91": [
+      {
+        "subject_id": 7910,
+        "name": "Physics",
+        "chapters": 27,
+        "distinct_questions": 2632
+      },
+      {
+        "subject_id": 7911,
+        "name": "Chemistry",
+        "chapters": 30,
+        "distinct_questions": 3137
+      },
+      {
+        "subject_id": 7912,
+        "name": "Botany",
+        "chapters": 20,
+        "distinct_questions": 2698
+      },
+      {
+        "subject_id": 7913,
+        "name": "Zoology",
+        "chapters": 16,
+        "distinct_questions": 1771
+      },
+      {
+        "subject_id": 7914,
+        "name": "Basic Maths",
+        "chapters": 27,
+        "distinct_questions": 571
+      },
+      {
+        "subject_id": 23285,
+        "name": "Business Studies",
+        "chapters": 13,
+        "distinct_questions": 260
+      },
+      {
+        "subject_id": 23982,
+        "name": "नेपाली",
+        "chapters": 13,
+        "distinct_questions": 260
+      },
+      {
+        "subject_id": 24041,
+        "name": "सामाजिक अध्ययन",
+        "chapters": 12,
+        "distinct_questions": 241
+      },
+      {
+        "subject_id": 25838,
+        "name": "Computer Science",
+        "chapters": 11,
+        "distinct_questions": 220
+      },
+      {
+        "subject_id": 31860,
+        "name": "Physics",
+        "chapters": 26,
+        "distinct_questions": 3588
+      },
+      {
+        "subject_id": 31917,
+        "name": "Chemistry",
+        "chapters": 28,
+        "distinct_questions": 3128
+      },
+      {
+        "subject_id": 31950,
+        "name": "Mathematics",
+        "chapters": 18,
+        "distinct_questions": 1429
+      },
+      {
+        "subject_id": 31960,
+        "name": "Botany",
+        "chapters": 20,
+        "distinct_questions": 2726
+      },
+      {
+        "subject_id": 31961,
+        "name": "Zoology",
+        "chapters": 14,
+        "distinct_questions": 1727
+      },
+      {
+        "subject_id": 33285,
+        "name": "Account",
+        "chapters": 23,
+        "distinct_questions": 460
+      },
+      {
+        "subject_id": 34684,
+        "name": "Economics",
+        "chapters": 9,
+        "distinct_questions": 180
+      },
+      {
+        "subject_id": 35113,
+        "name": "Compulsory English",
+        "chapters": 42,
+        "distinct_questions": 840
+      },
+      {
+        "subject_id": 35255,
+        "name": "Business Maths",
+        "chapters": 13,
+        "distinct_questions": 260
+      }
+    ],
+    "38": [
+      {
+        "subject_id": 2211,
+        "name": "Basic Maths",
+        "chapters": 27,
+        "distinct_questions": 1623
+      },
+      {
+        "subject_id": 2590,
+        "name": "Chemistry",
+        "chapters": 33,
+        "distinct_questions": 2723
+      },
+      {
+        "subject_id": 2591,
+        "name": "Physics",
+        "chapters": 39,
+        "distinct_questions": 3192
+      },
+      {
+        "subject_id": 2592,
+        "name": "Botany",
+        "chapters": 20,
+        "distinct_questions": 2205
+      },
+      {
+        "subject_id": 2593,
+        "name": "Zoology",
+        "chapters": 18,
+        "distinct_questions": 2283
+      },
+      {
+        "subject_id": 3897,
+        "name": "Account",
+        "chapters": 65,
+        "distinct_questions": 1300
+      },
+      {
+        "subject_id": 5746,
+        "name": "Orientation class",
+        "chapters": 1,
+        "distinct_questions": 20
+      },
+      {
+        "subject_id": 11494,
+        "name": "नेपाली",
+        "chapters": 14,
+        "distinct_questions": 280
+      },
+      {
+        "subject_id": 15562,
+        "name": "MODEL SETS",
+        "chapters": 10,
+        "distinct_questions": 200
+      },
+      {
+        "subject_id": 15687,
+        "name": "Kritagya's Handwritten Note",
+        "chapters": 4,
+        "distinct_questions": 80
+      },
+      {
+        "subject_id": 16384,
+        "name": "Economics",
+        "chapters": 33,
+        "distinct_questions": 660
+      },
+      {
+        "subject_id": 17668,
+        "name": "Business Studies",
+        "chapters": 11,
+        "distinct_questions": 220
+      },
+      {
+        "subject_id": 18072,
+        "name": "English",
+        "chapters": 37,
+        "distinct_questions": 740
+      },
+      {
+        "subject_id": 18133,
+        "name": "Social Studies",
+        "chapters": 13,
+        "distinct_questions": 260
+      },
+      {
+        "subject_id": 18134,
+        "name": "Business Maths",
+        "chapters": 28,
+        "distinct_questions": 560
+      },
+      {
+        "subject_id": 25211,
+        "name": "Computer Science",
+        "chapters": 20,
+        "distinct_questions": 652
+      },
+      {
+        "subject_id": 27816,
+        "name": "Accounting- Crash Course",
+        "chapters": 2,
+        "distinct_questions": 40
+      },
+      {
+        "subject_id": 32086,
+        "name": "Physics",
+        "chapters": 22,
+        "distinct_questions": 3176
+      },
+      {
+        "subject_id": 32088,
+        "name": "Chemistry",
+        "chapters": 25,
+        "distinct_questions": 3112
+      },
+      {
+        "subject_id": 32094,
+        "name": "Mathematics",
+        "chapters": 18,
+        "distinct_questions": 1504
+      },
+      {
+        "subject_id": 32096,
+        "name": "Botany",
+        "chapters": 16,
+        "distinct_questions": 1925
+      },
+      {
+        "subject_id": 32098,
+        "name": "Zoology",
+        "chapters": 15,
+        "distinct_questions": 1994
+      }
+    ],
+    "209": [
+      {
+        "subject_id": 34290,
+        "name": "Principle of Accounting-I",
+        "chapters": 7,
+        "distinct_questions": 140
+      },
+      {
+        "subject_id": 34297,
+        "name": "Economics",
+        "chapters": 9,
+        "distinct_questions": 180
+      },
+      {
+        "subject_id": 34306,
+        "name": "Business Studies",
+        "chapters": 13,
+        "distinct_questions": 260
+      },
+      {
+        "subject_id": 34310,
+        "name": "नेपाली",
+        "chapters": 12,
+        "distinct_questions": 240
+      },
+      {
+        "subject_id": 34317,
+        "name": "सामाजिक अध्ययन तथा जीवनोउपायोगी शिक्षा",
+        "chapters": 10,
+        "distinct_questions": 200
+      },
+      {
+        "subject_id": 37468,
+        "name": "Business Maths",
+        "chapters": 13,
+        "distinct_questions": 260
+      },
+      {
+        "subject_id": 37491,
+        "name": "English",
+        "chapters": 42,
+        "distinct_questions": 840
+      },
+      {
+        "subject_id": 37572,
+        "name": "Computer Science",
+        "chapters": 11,
+        "distinct_questions": 220
+      }
+    ],
+    "210": [
+      {
+        "subject_id": 34293,
+        "name": "Economics",
+        "chapters": 16,
+        "distinct_questions": 320
+      },
+      {
+        "subject_id": 34294,
+        "name": "Principles of Accounting-II",
+        "chapters": 1,
+        "distinct_questions": 20
+      },
+      {
+        "subject_id": 34298,
+        "name": "नेपाली",
+        "chapters": 11,
+        "distinct_questions": 220
+      },
+      {
+        "subject_id": 34299,
+        "name": "सामाजिक अध्ययन तथा जीवनोउपायोगी शिक्षा",
+        "chapters": 11,
+        "distinct_questions": 220
+      },
+      {
+        "subject_id": 34300,
+        "name": "Business Studies",
+        "chapters": 10,
+        "distinct_questions": 200
+      },
+      {
+        "subject_id": 34301,
+        "name": "Computer Science",
+        "chapters": 7,
+        "distinct_questions": 140
+      },
+      {
+        "subject_id": 37482,
+        "name": "Business Maths",
+        "chapters": 8,
+        "distinct_questions": 160
+      },
+      {
+        "subject_id": 37534,
+        "name": "English",
+        "chapters": 37,
+        "distinct_questions": 740
+      }
+    ]
+  }
+}
