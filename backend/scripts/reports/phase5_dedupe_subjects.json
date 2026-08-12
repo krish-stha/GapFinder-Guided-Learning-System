@@ -1,0 +1,158 @@
+{
+  "duplicate_subject_pairs_found": {
+    "course 91: Physics": [
+      7910,
+      31860
+    ],
+    "course 91: Chemistry": [
+      7911,
+      31917
+    ],
+    "course 91: Botany": [
+      7912,
+      31960
+    ],
+    "course 91: Zoology": [
+      7913,
+      31961
+    ],
+    "course 38: Chemistry": [
+      2590,
+      32088
+    ],
+    "course 38: Physics": [
+      2591,
+      32086
+    ],
+    "course 38: Botany": [
+      2592,
+      32096
+    ],
+    "course 38: Zoology": [
+      2593,
+      32098
+    ]
+  },
+  "total_questions_before": 31129,
+  "total_chapters_before": 878,
+  "merges": {
+    "course 91: Physics": {
+      "keeper_id": 7910,
+      "donor_ids": [
+        31860
+      ],
+      "donors": [
+        {
+          "donor_id": 31860,
+          "children_repointed": 7,
+          "children_remaining_under_donor": 0,
+          "donor_subject_deleted": true
+        }
+      ]
+    },
+    "course 91: Chemistry": {
+      "keeper_id": 7911,
+      "donor_ids": [
+        31917
+      ],
+      "donors": [
+        {
+          "donor_id": 31917,
+          "children_repointed": 4,
+          "children_remaining_under_donor": 0,
+          "donor_subject_deleted": true
+        }
+      ]
+    },
+    "course 91: Botany": {
+      "keeper_id": 7912,
+      "donor_ids": [
+        31960
+      ],
+      "donors": [
+        {
+          "donor_id": 31960,
+          "children_repointed": 6,
+          "children_remaining_under_donor": 0,
+          "donor_subject_deleted": true
+        }
+      ]
+    },
+    "course 91: Zoology": {
+      "keeper_id": 7913,
+      "donor_ids": [
+        31961
+      ],
+      "donors": [
+        {
+          "donor_id": 31961,
+          "children_repointed": 5,
+          "children_remaining_under_donor": 0,
+          "donor_subject_deleted": true
+        }
+      ]
+    },
+    "course 38: Chemistry": {
+      "keeper_id": 2590,
+      "donor_ids": [
+        32088
+      ],
+      "donors": [
+        {
+          "donor_id": 32088,
+          "children_repointed": 4,
+          "children_remaining_under_donor": 0,
+          "donor_subject_deleted": true
+        }
+      ]
+    },
+    "course 38: Physics": {
+      "keeper_id": 2591,
+      "donor_ids": [
+        32086
+      ],
+      "donors": [
+        {
+          "donor_id": 32086,
+          "children_repointed": 9,
+          "children_remaining_under_donor": 0,
+          "donor_subject_deleted": true
+        }
+      ]
+    },
+    "course 38: Botany": {
+      "keeper_id": 2592,
+      "donor_ids": [
+        32096
+      ],
+      "donors": [
+        {
+          "donor_id": 32096,
+          "children_repointed": 5,
+          "children_remaining_under_donor": 0,
+          "donor_subject_deleted": true
+        }
+      ]
+    },
+    "course 38: Zoology": {
+      "keeper_id": 2593,
+      "donor_ids": [
+        32098
+      ],
+      "donors": [
+        {
+          "donor_id": 32098,
+          "children_repointed": 6,
+          "children_remaining_under_donor": 0,
+          "donor_subject_deleted": true
+        }
+      ]
+    }
+  },
+  "total_questions_after": 31129,
+  "total_chapters_after": 878,
+  "zero_question_loss": true,
+  "zero_chapter_loss": true,
+  "remaining_duplicate_subject_names": {},
+  "dedupe_verified": true
+}

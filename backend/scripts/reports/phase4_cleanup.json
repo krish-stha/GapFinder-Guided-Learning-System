@@ -1,0 +1,518 @@
+{
+  "delete_precheck_source_counts": {
+    "Business Studies (subject_id=23285)": {
+      "real": 0,
+      "synthetic": 260,
+      "other": 0
+    },
+    "Account (subject_id=33285)": {
+      "real": 0,
+      "synthetic": 460,
+      "other": 0
+    },
+    "Economics (subject_id=34684)": {
+      "real": 0,
+      "synthetic": 180,
+      "other": 0
+    },
+    "Business Maths (subject_id=35255)": {
+      "real": 0,
+      "synthetic": 260,
+      "other": 0
+    },
+    "Account (subject_id=3897)": {
+      "real": 0,
+      "synthetic": 1300,
+      "other": 0
+    },
+    "Orientation class (subject_id=5746)": {
+      "real": 0,
+      "synthetic": 20,
+      "other": 0
+    },
+    "MODEL SETS (subject_id=15562)": {
+      "real": 0,
+      "synthetic": 200,
+      "other": 0
+    },
+    "Kritagya's Handwritten Note (subject_id=15687)": {
+      "real": 1,
+      "synthetic": 79,
+      "other": 0
+    },
+    "Economics (subject_id=16384)": {
+      "real": 1,
+      "synthetic": 659,
+      "other": 0
+    },
+    "Business Studies (subject_id=17668)": {
+      "real": 0,
+      "synthetic": 220,
+      "other": 0
+    },
+    "Business Maths (subject_id=18134)": {
+      "real": 20,
+      "synthetic": 540,
+      "other": 0
+    },
+    "Accounting- Crash Course (subject_id=27816)": {
+      "real": 0,
+      "synthetic": 40,
+      "other": 0
+    }
+  },
+  "rescued_real_content": [
+    {
+      "question_id": 37968,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37971,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37972,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37975,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37978,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37981,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37987,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37991,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37992,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37993,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37995,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37996,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 37998,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 38003,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 38052,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 38056,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 38070,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 38073,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 38074,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    },
+    {
+      "question_id": 38075,
+      "from_chapter": "Application of Derivatives",
+      "to_chapter_id": 2248,
+      "already_linked": false
+    }
+  ],
+  "accepted_loss_real_content": [
+    {
+      "question_id": 130346,
+      "source_chapter": "Physics Handwritten Notes",
+      "subject": "Kritagya's Handwritten Note (subject_id=15687)"
+    },
+    {
+      "question_id": 147663,
+      "source_chapter": "Nepalese Foreign Trade and Foreign Employment",
+      "subject": "Economics (subject_id=16384)"
+    }
+  ],
+  "attempts_orphaned_by_subject_deletion": {
+    "Account (subject_id=3897)": 4,
+    "MODEL SETS (subject_id=15562)": 2,
+    "Kritagya's Handwritten Note (subject_id=15687)": 10,
+    "Economics (subject_id=16384)": 4,
+    "Business Maths (subject_id=18134)": 2,
+    "Accounting- Crash Course (subject_id=27816)": 1
+  },
+  "attempts_orphaned_total": 23,
+  "deleted_subjects": {
+    "Business Studies (subject_id=23285)": {
+      "subject_id": 23285,
+      "question_chapter_rows_deleted": 260,
+      "sections_deleted_chapter": 13,
+      "sections_deleted_unit": 8,
+      "subject_deleted": true
+    },
+    "Account (subject_id=33285)": {
+      "subject_id": 33285,
+      "question_chapter_rows_deleted": 460,
+      "sections_deleted_chapter": 23,
+      "sections_deleted_unit": 2,
+      "subject_deleted": true
+    },
+    "Economics (subject_id=34684)": {
+      "subject_id": 34684,
+      "question_chapter_rows_deleted": 180,
+      "sections_deleted_chapter": 9,
+      "sections_deleted_unit": 6,
+      "subject_deleted": true
+    },
+    "Business Maths (subject_id=35255)": {
+      "subject_id": 35255,
+      "question_chapter_rows_deleted": 260,
+      "sections_deleted_chapter": 13,
+      "sections_deleted_unit": 1,
+      "subject_deleted": true
+    },
+    "Account (subject_id=3897)": {
+      "subject_id": 3897,
+      "question_chapter_rows_deleted": 1300,
+      "sections_deleted_chapter": 65,
+      "sections_deleted_unit": 21,
+      "subject_deleted": true
+    },
+    "Orientation class (subject_id=5746)": {
+      "subject_id": 5746,
+      "question_chapter_rows_deleted": 20,
+      "sections_deleted_chapter": 1,
+      "sections_deleted_unit": 1,
+      "subject_deleted": true
+    },
+    "MODEL SETS (subject_id=15562)": {
+      "subject_id": 15562,
+      "question_chapter_rows_deleted": 200,
+      "sections_deleted_chapter": 10,
+      "sections_deleted_unit": 7,
+      "subject_deleted": true
+    },
+    "Kritagya's Handwritten Note (subject_id=15687)": {
+      "subject_id": 15687,
+      "question_chapter_rows_deleted": 80,
+      "sections_deleted_chapter": 4,
+      "sections_deleted_unit": 4,
+      "subject_deleted": true
+    },
+    "Economics (subject_id=16384)": {
+      "subject_id": 16384,
+      "question_chapter_rows_deleted": 660,
+      "sections_deleted_chapter": 33,
+      "sections_deleted_unit": 7,
+      "subject_deleted": true
+    },
+    "Business Studies (subject_id=17668)": {
+      "subject_id": 17668,
+      "question_chapter_rows_deleted": 220,
+      "sections_deleted_chapter": 11,
+      "sections_deleted_unit": 11,
+      "subject_deleted": true
+    },
+    "Business Maths (subject_id=18134)": {
+      "subject_id": 18134,
+      "question_chapter_rows_deleted": 560,
+      "sections_deleted_chapter": 28,
+      "sections_deleted_unit": 8,
+      "subject_deleted": true
+    },
+    "Accounting- Crash Course (subject_id=27816)": {
+      "subject_id": 27816,
+      "question_chapter_rows_deleted": 40,
+      "sections_deleted_chapter": 2,
+      "sections_deleted_unit": 2,
+      "subject_deleted": true
+    }
+  },
+  "stripped_synthetic_links": {
+    "Physics (subject_id=7910)": {
+      "question_chapter_rows_deleted": 140,
+      "distinct_synthetic_questions_unlinked": 140
+    },
+    "Chemistry (subject_id=7911)": {
+      "question_chapter_rows_deleted": 119,
+      "distinct_synthetic_questions_unlinked": 119
+    },
+    "Botany (subject_id=7912)": {
+      "question_chapter_rows_deleted": 48,
+      "distinct_synthetic_questions_unlinked": 48
+    },
+    "Zoology (subject_id=7913)": {
+      "question_chapter_rows_deleted": 40,
+      "distinct_synthetic_questions_unlinked": 40
+    },
+    "Basic Maths (subject_id=7914)": {
+      "question_chapter_rows_deleted": 540,
+      "distinct_synthetic_questions_unlinked": 540
+    },
+    "नेपाली (subject_id=23982)": {
+      "question_chapter_rows_deleted": 260,
+      "distinct_synthetic_questions_unlinked": 260
+    },
+    "सामाजिक अध्ययन (subject_id=24041)": {
+      "question_chapter_rows_deleted": 240,
+      "distinct_synthetic_questions_unlinked": 240
+    },
+    "Computer Science (subject_id=25838)": {
+      "question_chapter_rows_deleted": 220,
+      "distinct_synthetic_questions_unlinked": 220
+    },
+    "Physics (subject_id=31860)": {
+      "question_chapter_rows_deleted": 0,
+      "distinct_synthetic_questions_unlinked": 0
+    },
+    "Chemistry (subject_id=31917)": {
+      "question_chapter_rows_deleted": 0,
+      "distinct_synthetic_questions_unlinked": 0
+    },
+    "Mathematics (subject_id=31950)": {
+      "question_chapter_rows_deleted": 0,
+      "distinct_synthetic_questions_unlinked": 0
+    },
+    "Botany (subject_id=31960)": {
+      "question_chapter_rows_deleted": 0,
+      "distinct_synthetic_questions_unlinked": 0
+    },
+    "Zoology (subject_id=31961)": {
+      "question_chapter_rows_deleted": 0,
+      "distinct_synthetic_questions_unlinked": 0
+    },
+    "Compulsory English (subject_id=35113)": {
+      "question_chapter_rows_deleted": 840,
+      "distinct_synthetic_questions_unlinked": 840
+    },
+    "Basic Maths (subject_id=2211)": {
+      "question_chapter_rows_deleted": 193,
+      "distinct_synthetic_questions_unlinked": 193
+    },
+    "Chemistry (subject_id=2590)": {
+      "question_chapter_rows_deleted": 227,
+      "distinct_synthetic_questions_unlinked": 227
+    },
+    "Physics (subject_id=2591)": {
+      "question_chapter_rows_deleted": 295,
+      "distinct_synthetic_questions_unlinked": 295
+    },
+    "Botany (subject_id=2592)": {
+      "question_chapter_rows_deleted": 93,
+      "distinct_synthetic_questions_unlinked": 93
+    },
+    "Zoology (subject_id=2593)": {
+      "question_chapter_rows_deleted": 40,
+      "distinct_synthetic_questions_unlinked": 40
+    },
+    "नेपाली (subject_id=11494)": {
+      "question_chapter_rows_deleted": 280,
+      "distinct_synthetic_questions_unlinked": 280
+    },
+    "English (subject_id=18072)": {
+      "question_chapter_rows_deleted": 740,
+      "distinct_synthetic_questions_unlinked": 740
+    },
+    "Social Studies (subject_id=18133)": {
+      "question_chapter_rows_deleted": 259,
+      "distinct_synthetic_questions_unlinked": 259
+    },
+    "Computer Science (subject_id=25211)": {
+      "question_chapter_rows_deleted": 289,
+      "distinct_synthetic_questions_unlinked": 289
+    },
+    "Physics (subject_id=32086)": {
+      "question_chapter_rows_deleted": 0,
+      "distinct_synthetic_questions_unlinked": 0
+    },
+    "Chemistry (subject_id=32088)": {
+      "question_chapter_rows_deleted": 0,
+      "distinct_synthetic_questions_unlinked": 0
+    },
+    "Mathematics (subject_id=32094)": {
+      "question_chapter_rows_deleted": 0,
+      "distinct_synthetic_questions_unlinked": 0
+    },
+    "Botany (subject_id=32096)": {
+      "question_chapter_rows_deleted": 0,
+      "distinct_synthetic_questions_unlinked": 0
+    },
+    "Zoology (subject_id=32098)": {
+      "question_chapter_rows_deleted": 0,
+      "distinct_synthetic_questions_unlinked": 0
+    }
+  },
+  "orphaned_synthetic_questions_found": 9081,
+  "attempts_referencing_orphaned_synthetic_questions": 59,
+  "orphaned_synthetic_questions_deleted": 9081,
+  "remaining_synthetic_questions_under_science_courses": 0,
+  "cleanup_verified": true,
+  "real_science_content_after": {
+    "course_91: Physics": {
+      "real": 3588,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_91: Chemistry": {
+      "real": 3128,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_91: Botany": {
+      "real": 2726,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_91: Zoology": {
+      "real": 1727,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_91: Basic Maths": {
+      "real": 31,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_91: Computer Science": {
+      "real": 0,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_91: Mathematics": {
+      "real": 1429,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_38: Basic Maths": {
+      "real": 1450,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_38: Chemistry": {
+      "real": 3112,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_38: Physics": {
+      "real": 3176,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_38: Botany": {
+      "real": 1925,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_38: Zoology": {
+      "real": 1994,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_38: Computer Science": {
+      "real": 363,
+      "synthetic": 0,
+      "other": 0
+    },
+    "course_38: Mathematics": {
+      "real": 1504,
+      "synthetic": 0,
+      "other": 0
+    }
+  },
+  "remaining_subjects_under_91_38": {
+    "91": [
+      "Basic Maths",
+      "Botany",
+      "Botany",
+      "Chemistry",
+      "Chemistry",
+      "Compulsory English",
+      "Computer Science",
+      "Mathematics",
+      "Physics",
+      "Physics",
+      "Zoology",
+      "Zoology",
+      "नेपाली",
+      "सामाजिक अध्ययन"
+    ],
+    "38": [
+      "Basic Maths",
+      "Botany",
+      "Botany",
+      "Chemistry",
+      "Chemistry",
+      "Computer Science",
+      "English",
+      "Mathematics",
+      "Physics",
+      "Physics",
+      "Social Studies",
+      "Zoology",
+      "Zoology",
+      "नेपाली"
+    ]
+  }
+}
