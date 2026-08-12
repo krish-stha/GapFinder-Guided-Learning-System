@@ -3441,6 +3441,12 @@
   color: var(--accent);
 }
 
+.subject-spotlight-caveat {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
 .subject-performance-list {
   display: flex;
   flex-direction: column;

@@ -19,6 +19,8 @@ const RANGE_OPTIONS: { label: string; days: number | null }[] = [
   { label: "All", days: null },
 ];
 
+const SUBJECT_LOW_CONFIDENCE_ATTEMPTS = 10;
+
 function weightedAvgMastery(subjects: SubjectPerformance[]): number | null {
   const totalN = subjects.reduce((sum, s) => sum + s.n_attempts, 0);
   if (totalN === 0) return null;
@@ -69,6 +71,11 @@ function SubjectSpotlightCard({
       <span className="subject-spotlight-label">{isStrongest ? "Strongest subject" : "Needs attention"}</span>
       <h3>{subject.subject_name}</h3>
       <p>{Math.round(subject.avg_mastery * 100)}% mastery</p>
+      {subject.n_attempts < SUBJECT_LOW_CONFIDENCE_ATTEMPTS && (
+        <span className="subject-spotlight-caveat">
+          Based on {subject.n_attempts} attempt{subject.n_attempts === 1 ? "" : "s"} so far - early signal, not confirmed yet
+        </span>
+      )}
       <span className="subject-spotlight-cta">{isStrongest ? "View analysis →" : "See weak areas →"}</span>
     </Link>
   );
@@ -94,6 +101,8 @@ function GapFinderInsight({
         Your <strong>{weakest.subject_name}</strong> mastery ({Math.round(weakest.avg_mastery * 100)}%) is {gapPct}% below
         your overall average ({Math.round(overallAvg * 100)}%).
         {weakChapters.length > 0 && ` We recommend focusing on ${weakChapters.join(" and ")}.`}
+        {weakest.n_attempts < SUBJECT_LOW_CONFIDENCE_ATTEMPTS &&
+          ` This is based on only ${weakest.n_attempts} attempt${weakest.n_attempts === 1 ? "" : "s"} so far, so treat it as an early signal rather than a confirmed weak spot.`}
       </p>
       <Link to={`/weak-areas?subject=${encodeURIComponent(weakest.subject_name)}`} className="cta-button-secondary">
         Work on {weakest.subject_name} →
