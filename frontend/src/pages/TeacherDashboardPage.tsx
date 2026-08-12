@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { teacherApi } from "../api/teacher";
 import { ApiError } from "../api/client";
 import { TableSkeleton } from "../components/Skeletons";
-import AnimatedNumber from "../components/AnimatedNumber";
 import type { ChapterWeakness, PriorityBand, SchoolClass, StudentSummary, TeacherDashboardSummary } from "../types";
 
 const BAND_ORDER: PriorityBand[] = ["High", "Medium", "Low", "Insufficient evidence"];
@@ -148,15 +147,11 @@ export default function TeacherDashboardPage() {
 
       <div className="dashboard-stat-tiles">
         <a href="#all-students" className="stat-tile stat-tile-link">
-          <span className="stat-tile-value">
-            <AnimatedNumber value={summary.total_students} />
-          </span>
+          <span className="stat-tile-value">{summary.total_students}</span>
           <span className="stat-tile-label">Students → see all</span>
         </a>
         <a href="#chapters-failing" className="stat-tile stat-tile-link">
-          <span className="stat-tile-value">
-            <AnimatedNumber value={summary.total_chapters_tracked} />
-          </span>
+          <span className="stat-tile-value">{summary.total_chapters_tracked}</span>
           <span className="stat-tile-label">Chapters tracked</span>
         </a>
         <a
@@ -164,9 +159,7 @@ export default function TeacherDashboardPage() {
           className={`stat-tile stat-tile-link${summary.alerts.length === 0 ? " stat-tile-disabled" : ""}`}
           onClick={(e) => summary.alerts.length === 0 && e.preventDefault()}
         >
-          <span className="stat-tile-value stat-tile-warning">
-            <AnimatedNumber value={summary.alerts.length} />
-          </span>
+          <span className="stat-tile-value stat-tile-warning">{summary.alerts.length}</span>
           <span className="stat-tile-label">Alerts (declining)</span>
         </a>
       </div>
