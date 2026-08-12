@@ -1,0 +1,296 @@
+:root {
+  --text: #4b5060;
+  --text-h: #14161f;
+  --text-muted: #7a7f8f;
+  --bg: #f7f7fa;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --border: #e3e4ea;
+  --accent: #5b4bda;
+  --accent-hover: #4a3bc4;
+  --accent-2: #d94f9c;
+  --accent-gradient: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+
+  --band-high-bg: #fdeceb;
+  --band-high-border: #f2a89f;
+  --band-high-text: #b23a2c;
+  --band-medium-bg: #fdf3e2;
+  --band-medium-border: #f0c877;
+  --band-medium-text: #96660a;
+  --band-low-bg: #eaf6ec;
+  --band-low-border: #a3d9ac;
+  --band-low-text: #29793a;
+  --band-insufficient-bg: #eef0f4;
+  --band-insufficient-border: #c9cdd8;
+  --band-insufficient-text: #5c6072;
+
+  --correct-bg: #eaf6ec;
+  --correct-border: #7fc98c;
+  --incorrect-bg: #fdeceb;
+  --incorrect-border: #ef9284;
+
+  /* type scale (1.25 ratio) */
+  --fs-sm: 0.8rem;
+  --fs-base: 1rem;
+  --fs-md: 1.05rem;
+  --fs-lg: 1.3rem;
+  --fs-xl: 1.65rem;
+  --fs-2xl: 2.05rem;
+
+  /* elevation */
+  --shadow-sm: 0 1px 2px rgba(20, 22, 31, 0.06), 0 1px 1px rgba(20, 22, 31, 0.04);
+  --shadow-md: 0 4px 12px rgba(20, 22, 31, 0.08), 0 2px 4px rgba(20, 22, 31, 0.05);
+  --shadow-lg: 0 12px 32px rgba(20, 22, 31, 0.14), 0 4px 10px rgba(20, 22, 31, 0.06);
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 140ms var(--ease);
+  --transition-med: 220ms var(--ease);
+
+  font: 16px/1.5 system-ui, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Explicit data-theme attribute drives light/dark/reading now (set by
+   ThemeContext + the no-flash inline script in index.html, persisted to
+   localStorage) - this replaced a prefers-color-scheme media query, which
+   only covered light/dark and couldn't express a 3rd "reading" option.
+   :root's own values above stay the light theme (and the implicit
+   default when no explicit choice has ever been made, via the inline
+   script's own system-preference fallback). */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --text: #c3c6d4;
+  --text-h: #f2f3f7;
+  --text-muted: #8d92a3;
+  --bg: #14151b;
+  --surface: #1c1e27;
+  --surface-raised: #22242f;
+  --border: #2c2e3a;
+  --accent: #8b7bf0;
+  --accent-hover: #a294f5;
+  --accent-2: #e879b9;
+
+  --band-high-bg: #3a201d;
+  --band-high-border: #7a3d33;
+  --band-high-text: #f2a89f;
+  --band-medium-bg: #362c17;
+  --band-medium-border: #7a5f22;
+  --band-medium-text: #e8c37c;
+  --band-low-bg: #1c3123;
+  --band-low-border: #3d6b49;
+  --band-low-text: #8fd39c;
+  --band-insufficient-bg: #23242e;
+  --band-insufficient-border: #3a3d4d;
+  --band-insufficient-text: #a3a7ba;
+
+  --correct-bg: #1c3123;
+  --correct-border: #3d6b49;
+  --incorrect-bg: #3a201d;
+  --incorrect-border: #7a3d33;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.35), 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.45), 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Reading mode: warm/sepia, low blue-light, e-reader-style palette for
+   long practice sessions - the accent shifts from the brand purple/pink
+   to a warm amber/terracotta pair too, since a cool-toned accent reads as
+   visually jarring against a warm page (the point of this mode is
+   comfort, not brand-matching). Status colors (band-high/medium/low and
+   correct/incorrect) stay recognizably red/amber/green, just warmed and
+   desaturated to fit. */
+:root[data-theme="reading"] {
+  color-scheme: light;
+  --text: #3d3226;
+  --text-h: #2b2318;
+  --text-muted: #7a6f5c;
+  --bg: #f4ecd8;
+  --surface: #fbf6ea;
+  --surface-raised: #fffaf0;
+  --border: #e0d5bc;
+  --accent: #a8631f;
+  --accent-hover: #8f5219;
+  --accent-2: #c2793a;
+
+  --band-high-bg: #f3ddd2;
+  --band-high-border: #c17a5c;
+  --band-high-text: #8a3f22;
+  --band-medium-bg: #f3e6c8;
+  --band-medium-border: #c9a355;
+  --band-medium-text: #7a5a12;
+  --band-low-bg: #e3ead0;
+  --band-low-border: #8fae6c;
+  --band-low-text: #3f5c22;
+  --band-insufficient-bg: #e8e0cf;
+  --band-insufficient-border: #c2b696;
+  --band-insufficient-text: #6b5f47;
+
+  --correct-bg: #e3ead0;
+  --correct-border: #8fae6c;
+  --incorrect-bg: #f3ddd2;
+  --incorrect-border: #c17a5c;
+
+  --shadow-sm: 0 1px 2px rgba(61, 50, 38, 0.08), 0 1px 1px rgba(61, 50, 38, 0.05);
+  --shadow-md: 0 4px 12px rgba(61, 50, 38, 0.1), 0 2px 4px rgba(61, 50, 38, 0.06);
+  --shadow-lg: 0 12px 32px rgba(61, 50, 38, 0.16), 0 4px 10px rgba(61, 50, 38, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  transition: background-color var(--transition-med) var(--ease), color var(--transition-med) var(--ease);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-h);
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: var(--fs-2xl);
+}
+
+h2 {
+  font-size: var(--fs-lg);
+}
+
+h3 {
+  font-size: var(--fs-md);
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  padding: 8px 16px;
+  transition: background-color var(--transition-fast), border-color var(--transition-fast),
+    transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+button:hover:not(:disabled) {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+a {
+  color: var(--accent);
+  transition: color var(--transition-fast);
+}
+
+input,
+select {
+  font: inherit;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text-h);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+input:focus-visible,
+select:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+input:focus,
+select:focus {
+  border-color: var(--accent);
+}
+
+/* page fade-in - a cheap stand-in for route-transition motion without
+   pulling in a routing-transition library */
+.app-main > * {
+  animation: fade-in-up var(--transition-med) var(--ease);
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-main > * {
+    animation: none;
+  }
+}
+
+/* ---------- skeleton loaders ---------- */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.28), transparent);
+  animation: skeleton-shimmer 1.4s infinite;
+}
+
+:root[data-theme="dark"] .skeleton::after {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
+}
+
+:root[data-theme="reading"] .skeleton::after {
+  background: linear-gradient(90deg, transparent, rgba(61, 50, 38, 0.12), transparent);
+}
+
+@keyframes skeleton-shimmer {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton::after {
+    animation: none;
+  }
+}
