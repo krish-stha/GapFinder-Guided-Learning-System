@@ -1,0 +1,50 @@
+{
+  "total_questions_before": 35750,
+  "renamed": {
+    "91": {
+      "from": "NEB Grade 11",
+      "to": "NEB Grade 11 Science"
+    },
+    "38": {
+      "from": "NEB Grade 12",
+      "to": "NEB Grade 12 Science"
+    }
+  },
+  "merge_194_into_91": {
+    "source_id": 194,
+    "target_id": 91,
+    "sections_repointed": 140,
+    "sections_remaining_under_source": 0,
+    "sessions_repointed": 8,
+    "sessions_remaining_under_source": 0,
+    "source_course_deleted": true
+  },
+  "merge_195_into_38": {
+    "source_id": 195,
+    "target_id": 38,
+    "sections_repointed": 131,
+    "sections_remaining_under_source": 0,
+    "sessions_repointed": 0,
+    "sessions_remaining_under_source": 0,
+    "source_course_deleted": true
+  },
+  "delete_203": {
+    "chapters_to_delete": 71,
+    "question_chapter_rows_deleted": 8264,
+    "sections_deleted_chapter": 71,
+    "sections_deleted_unit": 17,
+    "sections_deleted_subject": 3,
+    "sections_remaining_under_203": 0,
+    "course_203_deleted": true
+  },
+  "total_questions_after": 35750,
+  "zero_question_loss": true,
+  "remaining_courses": {
+    "24": "+2 Foundation (After SEE)",
+    "38": "NEB Grade 12 Science",
+    "72": "NEB grade improvement",
+    "91": "NEB Grade 11 Science",
+    "209": "LMS class 11: Management",
+    "210": "LMS Class 12: Management"
+  }
+}
