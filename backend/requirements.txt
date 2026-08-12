@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic[email]
+python-multipart
+bcrypt
+pyjwt
+python-dotenv
+pytest
+pandas
+openpyxl
+numpy
+scipy
+scikit-learn
+torch
