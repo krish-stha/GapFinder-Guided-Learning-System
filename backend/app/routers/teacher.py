@@ -330,7 +330,7 @@ def student_performance(
 
     sessions = (
         db.query(models.PracticeSession)
-          .filter_by(student_id=student_id)
+          .filter_by(student_id=student_id, status="completed")
           .order_by(models.PracticeSession.started_at.desc())
           .limit(50)
           .all()
@@ -338,7 +338,7 @@ def student_performance(
     session_history = [
         schemas.SessionHistoryEntryOut(
             session_id=s.id, course_id=s.course_id, chapter_id=s.chapter_id, purpose=s.purpose,
-            completed_at=s.completed_at, total_questions=s.total_questions,
+            started_at=s.started_at, completed_at=s.completed_at, total_questions=s.total_questions,
             correct_count=s.correct_count, percentage=s.percentage,
         ) for s in sessions
     ]
@@ -350,7 +350,9 @@ def student_performance(
           .all()
     )
     accuracy_trend = [
-        schemas.AccuracyPointOut(attempt_order=i, answered_at=a.answered_at, is_correct=bool(a.is_correct))
+        schemas.AccuracyPointOut(
+            attempt_order=i, answered_at=a.answered_at, is_correct=bool(a.is_correct), chapter_id=a.chapter_id,
+        )
         for i, a in enumerate(scored_attempts)
     ]
 
