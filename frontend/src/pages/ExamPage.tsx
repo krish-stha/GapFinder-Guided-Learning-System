@@ -507,12 +507,7 @@ function ExamResults({
       <h1>{title}</h1>
       <p className="summary-score">
         <AnimatedNumber value={result.correct_count} /> / {result.total_questions} correct
-        {result.percentage !== null && (
-          <>
-            {" "}
-            (<AnimatedNumber value={Math.round(result.percentage)} suffix="%" />)
-          </>
-        )}
+        {result.percentage !== null && <> ({Math.round(result.percentage)}%)</>}
       </p>
 
       {result.chapter_breakdown.length > 0 && (
