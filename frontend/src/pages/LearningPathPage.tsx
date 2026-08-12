@@ -94,7 +94,9 @@ function GoalCard({ path }: { path: LearningPathStep[] }) {
         <div>
           <p className="learning-goal-title">Your learning goal</p>
           <p className="learning-goal-desc">
-            Build your average mastery from {pct}% toward the {Math.round(MASTERY_TARGET * 100)}% mastery threshold.
+            {avgMastery >= MASTERY_TARGET
+              ? `You're averaging ${pct}% mastery, already above the ${Math.round(MASTERY_TARGET * 100)}% threshold - keep reinforcing the areas below to stay there.`
+              : `Build your average mastery from ${pct}% toward the ${Math.round(MASTERY_TARGET * 100)}% mastery threshold.`}
           </p>
         </div>
       </div>
