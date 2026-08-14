@@ -61,7 +61,7 @@ See `evaluation/README.md` for what each one measures and how long it takes to r
 
 **Explaining the numbers, not just showing them.** Every page that shows a mastery figure also has a short "how is this calculated?" explainer, and a chapter with too little data is labeled "not enough evidence yet" rather than being confidently called weak or strong. Accuracy and mastery are shown as two different things on purpose - mastery adjusts for difficulty and recency, accuracy doesn't, and the app is explicit about that difference.
 
-**Auth and account basics.** Email verification and password reset via a shared, single-use, expiring token table. Teacher accounts are gated by an invite code; a class/enrollment model lets teachers group students instead of seeing every registered student system-wide.
+**Auth and account basics.** Email verification and password reset via a shared, single-use, expiring token table. Teacher accounts are gated by an invite code; a class/enrollment model lets teachers group students instead of seeing every registered student system-wide. Outbound email defaults to logging (so the flows are testable with zero SMTP setup) and switches to real delivery once `SMTP_*` is set in `.env` - live Gmail SMTP delivery has been verified end to end.
 
 **Engagement features.** A daily streak indicator, tiered achievement badges (streak length, questions answered, chapters mastered, mock tests completed), a "continue practicing" shortcut back into your most recent chapters, and a fast 5-question Quick Practice mode for when a full session is too much friction. No leaderboard - a public ranking cuts against an app whose whole premise is "evidence-weighted, not a percentage race," and risks discouraging exactly the students it's meant to help.
 
