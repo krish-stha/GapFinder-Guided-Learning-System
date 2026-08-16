@@ -1,5 +1,5 @@
 from typing import Literal
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, ConfigDict, EmailStr
 from datetime import datetime
 
 
@@ -27,8 +27,7 @@ class StudentOut(BaseModel):
     email_verified: bool
     class_id: int | None
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class StudentLogin(BaseModel):
@@ -62,8 +61,7 @@ class ChapterOut(BaseModel):
     parent_id: int | None
     course_id: int
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class QuestionOut(BaseModel):
@@ -310,8 +308,7 @@ class LearningResourceOut(BaseModel):
     url: str | None
     order_index: int
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class LearningResourceCreate(BaseModel):
@@ -357,8 +354,7 @@ class QuizTemplateOut(BaseModel):
     time_limit_seconds: int | None
     is_published: bool
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
 
 
 class QuizTemplateCreate(BaseModel):
