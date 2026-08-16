@@ -24,6 +24,13 @@ Don't run the server against a `.db` file that lives inside a OneDrive/Dropbox-s
 
 To use Postgres instead, set `DATABASE_URL=postgresql://user:pass@host:port/dbname` in `.env` (template in `.env.example`). If you've already got a populated SQLite dev database, `python -m scripts.migrate_sqlite_to_postgres` copies everything across, including sequence resets so new rows don't collide with migrated ids.
 
+If Postgres was installed without its Windows service enabled, it won't survive a reboot on its own - either start it manually each time with `pg_ctl start`, or enable the service once (elevated PowerShell required):
+
+```powershell
+Set-Service -Name postgresql-x64-16 -StartupType Automatic
+Start-Service -Name postgresql-x64-16
+```
+
 **Run the server:**
 ```
 uvicorn app.main:app --reload
